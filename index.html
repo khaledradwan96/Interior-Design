@@ -17,12 +17,13 @@
     <link rel="stylesheet" href="CSS/all.min.css">
     <link rel="stylesheet" href="CSS/bootstrap.min.css">
     <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/media.css">
 </head>
 
 <body>
 
     <!-- ==================== Header ==================== -->
-    <header>
+    <header class="fixed-top">
         <nav class="navbar navbar-expand-sm">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
@@ -35,16 +36,59 @@
                 </button>
                 <div class="collapse navbar-collapse flex-grow-0" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        <a class="nav-link" href="#">Services</a>
-                        <a class="nav-link" href="#">Contact</a>
-                        <a class="nav-link" href="#">Support</a>
+                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                        <a class="nav-link" href="#services">Services</a>
+                        <a class="nav-link" href="#contact">Contact</a>
+                        <a class="nav-link" href="#support">Support</a>
                     </div>
                 </div>
                 <a class="btn btn-dark px-4" href="#">Sign Up</a>
             </div>
         </nav>
     </header>
+
+    <!-- ==================== Home ==================== -->
+    <section id="home">
+        <div class="container">
+            <div class="row g-3 mb-3">
+                <div class="col-md-8">
+                    <h1 class="h1 fs-1 fw-bolder">Interior Design</h1>
+                    <p>Step into a world where the art of Interior Design is meticulously crafted to bring together
+                        timeless
+                        elegance and cutting-edge
+                        modern Innovation, Allowing you to transform your living spaces into the epitome of luxury and
+                        sophistication</p>
+                </div>
+                <div class="col-md-4">
+                    <img class="w-100" src="imgs/Image 1.png" alt="">
+                </div>
+            </div>
+
+            <div id="count" class="row">
+                <div class="col-md-6 mb-3">
+                    <a href="#" class="btn btn-dark px-5">Start Project</a>
+                    <div class="row mt-5">
+                        <div class="col">
+                            <span class="h1">400+</span>
+                            <p>Project Complete</p>
+                        </div>
+                        <div class="col">
+                            <span class="h1">600+</span>
+                            <p>Satisfied Clients</p>
+                        </div>
+                        <div class="col">
+                            <span class="h1">100+</span>
+                            <p>Unique Styles</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 image">
+                    <img src="imgs/Image 2.png" width="638" class="w-100" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
 
 
     <!-- ==================== JS Files ==================== -->

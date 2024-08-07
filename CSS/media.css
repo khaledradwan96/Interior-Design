@@ -1,0 +1,21 @@
+/* ==================== Media Query (Small mobile Screen) ==================== */
+@media only screen and (max-width: 400px) {
+}
+/* ==================== Media Query (Mobile Screen) ==================== */
+@media only screen and (max-width: 660px) {
+  #home .image {
+    display: none;
+  }
+}
+
+/* ==================== Media Query (Small Screen) ==================== */
+@media only screen and (min-width: 768px) {
+}
+
+/* ==================== Media Query (Medium Screen) ==================== */
+@media only screen and (min-width: 992px) {
+}
+
+/* ==================== Media Query (Large Screen) ==================== */
+@media only screen and (min-width: 1200px) {
+}
