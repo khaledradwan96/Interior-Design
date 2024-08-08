@@ -55,6 +55,9 @@ h2 {
   -ms-flex-pack: center;
   justify-content: center;
 }
+#home .counter::after {
+  content: "+";
+}
 
 /* ==================== Services ==================== */
 #services h2 {
