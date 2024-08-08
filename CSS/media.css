@@ -6,6 +6,9 @@
   #home .image {
     display: none;
   }
+  #goDown {
+    display: none;
+  }
 }
 
 /* ==================== Media Query (Small Screen) ==================== */
