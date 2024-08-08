@@ -163,10 +163,14 @@ h2 {
 /* ==================== Subscribe ==================== */
 #subscribe .container {
   max-width: 470px;
+  position: relative;
+}
+
+#subscribe form {
+  /* position: absolute; */
 }
 #subscribe form .control {
   position: relative;
-  /* box-shadow: 0px 2px #777; */
   box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 5px;
   display: flex;
   align-items: center;
@@ -177,7 +181,6 @@ h2 {
   border: none;
   outline: none;
   padding: 0.75rem;
-  /* padding-left: 1.5rem; */
 }
 #subscribe form input[type="submit"] {
   background-color: #000;
@@ -187,4 +190,39 @@ h2 {
   border: none;
   outline: none;
   padding: 0.75rem 1.5rem;
+}
+
+/* ==================== Footer ==================== */
+footer {
+  background-color: #000;
+  padding-top: 6rem;
+  padding-bottom: 3rem;
+  color: #fff;
+}
+footer h4 {
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+}
+
+footer ul.social {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  padding-left: 0;
+}
+footer ul.social li {
+  background-color: #333;
+  padding: 0.25rem 0.5rem;
+  border-radius: 6px;
+}
+footer ul {
+  list-style: none;
+  padding-left: 0;
+}
+footer ul li {
+  margin-bottom: 1rem;
+}
+footer a {
+  color: #fff;
+  text-decoration: none;
 }
