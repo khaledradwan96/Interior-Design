@@ -77,3 +77,52 @@ section {
   font-size: 1.2rem;
   font-weight: bold;
 }
+#brilliance ul.list li i {
+  cursor: pointer;
+}
+
+/* ==================== Designing Steps ==================== */
+#steps .box {
+  display: flex;
+  /* align-items: flex-start; */
+}
+#steps .box:nth-of-type(2) {
+  /* background-color: red; */
+}
+
+#steps .box .icon {
+  margin-right: 20px;
+  position: relative;
+}
+
+#steps .box .icon i {
+  background-color: black;
+  color: #fff;
+  padding: 0.75rem;
+  border-radius: 50%;
+  font-size: 1rem;
+  display: inline-block;
+}
+#steps .box:nth-of-type(2) .icon::after {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: calc(100% - 60px);
+  background-color: #ddd;
+  left: 50%;
+  top: 50px;
+  z-index: -1;
+}
+#steps .box:nth-of-type(2) .icon::before {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: calc(100% - 60px);
+  background-color: #ddd;
+  left: 50%;
+  top: calc(-100% + 50px);
+  z-index: -1;
+}
+#steps .box .content {
+  padding-top: 0.5rem;
+}
